@@ -79,7 +79,7 @@ begin
     begin
       Writeln(E.ClassName, ': ', E.Message);
       Writeln;
-      Writeln('Csak számok adhatók meg!');
+      Writeln('Csak egész számok adhatók meg!');
       Readln;
     end;
   end;
