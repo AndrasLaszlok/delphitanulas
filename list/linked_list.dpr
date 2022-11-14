@@ -18,7 +18,7 @@ uses
 
      var
      kod, mag, atm, bevitt: integer;
-     uj,akt,elso,utolso: PFaegyed;
+     new_rec,act_rec,first_rec,last_rec_: PFaegyed;
 
 begin
   try
@@ -43,40 +43,40 @@ begin
    end;
 
 
-  if kod>0 then begin
+  if kod>0 then begin    {ha nem szabályos fafajkódot adott meg, ez nem fut le}
               Writeln('Adja meg a famagasságot (m):');
               Readln(mag);
               Writeln('Adja meg a mellmagassági átmérõt (mm):');
               Readln(atm);
 
-              new(uj);
-              uj^.fafajkod:=kod;
-              uj^.magassag:=mag;
-              uj^.atmero:=atm;
-              uj^.kov:=nil;
-              if elso=nil then elso:=uj
-                          else utolso^.kov:=uj;
-              utolso:=uj;
+              new(new_rec);
+              new_rec^.fafajkod:=kod;
+              new_rec^.magassag:=mag;
+              new_rec^.atmero:=atm;
+              new_rec^.kov:=nil;
+              if first_rec=nil then first_rec:=new_rec
+                          else last_rec_^.kov:=new_rec;
+              last_rec_:=new_rec;
               end;
  until bevitt=0;
  writeln;
 
  {Adatok kiíratása}
- akt:=elso;
- while akt<>nil do begin
-                   Writeln('Fa kódja: ', akt^.fafajkod,',');
-                   Writeln('Fa magassága: ', akt^.magassag,',');
-                   Writeln('Fa mellmagassági átmérõje: ',akt^.atmero,',');
-                   akt:=akt^.kov;
+ act_rec:=first_rec;
+ while act_rec<>nil do begin
+                   Writeln('Fa kódja: ', act_rec^.fafajkod,',');
+                   Writeln('Fa magassága: ', act_rec^.magassag,',');
+                   Writeln('Fa mellmagassági átmérõje: ',act_rec^.atmero,',');
+                   act_rec:=act_rec^.kov;
                    end;
  writeln;
 
  {Memória felszabadítása}
- akt:=elso;
- while akt<>nil do begin
-                   elso:=akt^.kov;
-                   dispose(akt);
-                   akt:=elso;
+ act_rec:=first_rec;
+ while act_rec<>nil do begin
+                   first_rec:=act_rec^.kov;
+                   dispose(act_rec);
+                   act_rec:=first_rec;
                    end;
 
  Readln;
