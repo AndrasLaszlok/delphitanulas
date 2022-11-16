@@ -74,10 +74,10 @@ begin
    readln(H);
 
     p1 := Parameterek[fafaj][1];
-		p2 := Parameterek[fafaj][2];
-		p3 := Parameterek[fafaj][3];
-		p4 := Parameterek[fafaj][4];
-		k := Parameterek[fafaj][5];
+    p2 := Parameterek[fafaj][2];
+    p3 := Parameterek[fafaj][3];
+    p4 := Parameterek[fafaj][4];
+    k := Parameterek[fafaj][5];
 
 
     V:=(p1 + (p2 * D * H) + (p3 * D) + (p4 * H)) * (power((H / (H - 1.3)),k)) * (power(D,2)) * (H / (power(10,8)));
