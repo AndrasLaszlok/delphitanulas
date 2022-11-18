@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2022/11/17 23:07:17.000.118,=C:\Users\Hp\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/11/17 23:11:55.000.317,C:\Users\Hp\Documents\Embarcadero\Studio\delphitanulas_devel\vcl_2\Masodik.pas=C:\Users\Hp\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/11/17 23:11:55.000.317,C:\Users\Hp\Documents\Embarcadero\Studio\delphitanulas_devel\vcl_2\Masodik.dfm=C:\Users\Hp\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>2022/11/17 23:12:57.000.361,C:\Users\Hp\Documents\Embarcadero\Studio\delphitanulas_devel\vcl_2\Unit1.dfm=C:\Users\Hp\Documents\Embarcadero\Studio\delphitanulas_devel\vcl_2\Masodik.dfm</Transaction>
+    <Transaction>2022/11/17 23:12:57.000.361,C:\Users\Hp\Documents\Embarcadero\Studio\delphitanulas_devel\vcl_2\Unit1.pas=C:\Users\Hp\Documents\Embarcadero\Studio\delphitanulas_devel\vcl_2\Masodik.pas</Transaction>
+    <Transaction>2022/11/17 23:13:24.000.469,C:\Users\Hp\Documents\Embarcadero\Studio\delphitanulas_devel\vcl_2\Masodik.dproj=C:\Users\Hp\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2022/11/18 12:31:20.000.857,C:\Users\Hp\Documents\Embarcadero\Studio\delphitanulas_devel\vcl_2\Masodik.dproj=C:\Users\Hp\Documents\Embarcadero\Studio\delphitanulas_devel\first_vcl\first_vcl.dproj</Transaction>
+    <Transaction>2022/11/18 12:39:16.000.451,C:\Users\Hp\Documents\Embarcadero\Studio\delphitanulas_devel\first_vcl\first_vcl.dproj=C:\Users\Hp\Documents\Github\delphitanulas_public\first_vcl\first_vcl.dproj</Transaction>
+    <Transaction>2022/11/18 12:39:39.000.309,C:\Users\Hp\Documents\Embarcadero\Studio\delphitanulas_devel\vcl_2\Unit1.pas=C:\Users\Hp\Documents\Github\delphitanulas_public\first_vcl\Unit1.pas</Transaction>
+    <Transaction>2022/11/18 12:39:39.000.309,C:\Users\Hp\Documents\Embarcadero\Studio\delphitanulas_devel\vcl_2\Unit1.dfm=C:\Users\Hp\Documents\Github\delphitanulas_public\first_vcl\Unit1.dfm</Transaction>
+  </Transactions>
+</BorlandProject>

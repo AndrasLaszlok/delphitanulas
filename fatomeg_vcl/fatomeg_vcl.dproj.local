@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2022/11/18 12:41:27.000.317,=C:\Users\Hp\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/11/18 13:03:46.000.187,C:\Users\Hp\Documents\Embarcadero\Studio\delphitanulas_devel\fatomeg_vcl\Unit1.dfm=C:\Users\Hp\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>2022/11/18 13:03:46.000.187,C:\Users\Hp\Documents\Embarcadero\Studio\delphitanulas_devel\fatomeg_vcl\Unit1.pas=C:\Users\Hp\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/11/18 13:03:51.000.874,C:\Users\Hp\Documents\Embarcadero\Studio\delphitanulas_devel\fatomeg_vcl\fatomeg_vcl.dproj=C:\Users\Hp\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2022/11/18 14:08:52.000.346,C:\Users\Hp\Documents\Github\delphitanulas_public\fatomeg_vcl\fatomeg_vcl.dproj=C:\Users\Hp\Documents\Embarcadero\Studio\delphitanulas_devel\fatomeg_vcl\fatomeg_vcl.dproj</Transaction>
+    <Transaction>2022/11/18 14:10:07.000.163,C:\Users\Hp\Documents\Github\delphitanulas_public\fatomeg_vcl\Unit1.pas=C:\Users\Hp\Documents\Embarcadero\Studio\delphitanulas_devel\fatomeg_vcl\Unit1.pas</Transaction>
+    <Transaction>2022/11/18 14:10:07.000.163,C:\Users\Hp\Documents\Github\delphitanulas_public\fatomeg_vcl\Unit1.dfm=C:\Users\Hp\Documents\Embarcadero\Studio\delphitanulas_devel\fatomeg_vcl\Unit1.dfm</Transaction>
+  </Transactions>
+</BorlandProject>
