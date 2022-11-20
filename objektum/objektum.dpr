@@ -29,7 +29,7 @@ procedure TKarosito.Kiir;
 begin
  Writeln('Károsító neve: ',Nev);
  Writeln('Károsítással érintett fafaj: ',Fafaj);
- Writeln('Gyakorisag(%): ',Gyakorisag);
+ Writeln('Gyakoriság(%): ',Gyakorisag);
 end;
 
  var
