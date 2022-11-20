@@ -57,10 +57,10 @@ begin
    Writeln ('15-Fekete nyár     16-Hársak');
    Writeln ('17-I-214 nyár      18-Kései nyár');
    Writeln ('19-Korai nyár      20-Közönséges nyír');
-   Writeln ('21-Óriás nyár      22-Rezgõ nyár');
-   Writeln ('23-Duglászfenyõ    24-Erdeifenyõ');
-   Writeln ('25-Feketefenyõ     26-Jegenyefenyõ');
-   Writeln ('27-Lucfenyõ        28-Vörösfenyõ');
+   Writeln ('21-Óriás nyár      22-Rezgő nyár');
+   Writeln ('23-Duglászfenyő    24-Erdeifenyő');
+   Writeln ('25-Feketefenyő     26-Jegenyefenyő');
+   Writeln ('27-Lucfenyő        28-Vörösfenyő');
 
    readln(fafaj);
 
